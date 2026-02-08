@@ -1,6 +1,7 @@
 // Emilia Cristina Prieto Henriquez
 // ID 0580909
 // Ing. Animacion Digital
+// Dada una secuencia de n√∫meros, contar e imprimir el n√∫mero de ceros de la secuencia.
 Algoritmo DF_06
 	Definir Total, num Como Entero
 	Total <- 0
@@ -9,7 +10,7 @@ Algoritmo DF_06
 		Si num=0 Entonces
 			Total <- Total+1
 		FinSi
-		Escribir 'øHay m·s n˙meros? (s para sÌ / n para no)'
+		Escribir '¬øHay m√°s n√∫meros? (s para s√≠ / n para no)'
 		Leer respuesta
 	Hasta Que respuesta='n'
 	Escribir Total
