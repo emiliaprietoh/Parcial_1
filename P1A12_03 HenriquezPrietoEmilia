@@ -1,0 +1,17 @@
+// Emilia Cristina Prieto Henriquez
+// ID 0580909
+// Ing. Animacion Digital
+// Calcular la media de una serie de números positivos, suponiendo que los datos se leen desde un terminal. Un valor de cero ?como entrada? indicará que se ha alcanzado el final de la serie de números positivos.
+Algoritmo DF_03
+	Definir C, S, dato, media Como Entero
+	C <- 0
+	S <- 0
+	Repetir // contador de num
+		Escribir 'Ingresa un dato: ' // sumador de num
+		Leer dato
+		C <- C+1
+		S <- S+dato
+	Mientras Que dato<>0 // variable tipo contador
+	media <- Trunc(S/C) // variable tipo acumulador
+	Escribir 'La media es: ', media
+FinAlgoritmo

@@ -1,0 +1,24 @@
+// Emilia Cristina Prieto Henriquez
+// ID 0580909
+// Ing. Animacion Digital
+// Escribir un algoritmo que calcule el producto de los n primeros números naturales
+Algoritmo DF_9
+	Definir N, P Como Entero
+	Escribir 'Ingrese Numero natural:'
+	Leer N
+	Si N=0 Entonces
+		Escribir 'Factorial de 0 igual a 1'
+	SiNo
+		Si N<0 Entonces
+			Escribir 'Numero negativo'
+			Escribir 'Prueba con positivos'
+		SiNo
+			P <- 1
+			Mientras N>1 Hacer
+				P <- P*N
+				N <- N-1
+			FinMientras
+			Escribir 'Factorial = ', P
+		FinSi
+	FinSi
+FinAlgoritmo

@@ -1,0 +1,26 @@
+// Emilia Cristina Prieto Henriquez
+// ID 0580909
+// Ing. Animacion Digital
+// 7. Dados tres números, determinar si la suma de cualquier pareja de ellos es igual al tercer número. Si se cumple esta condición, escribir "Iguales" y, en caso contrario, escribir "Distintas".
+Algoritmo DF_07
+	Definir A, B, C Como Entero
+	Escribir 'Ingrese A:'
+	Leer A
+	Escribir 'Ingrese B:'
+	Leer B
+	Escribir 'Ingrese C:'
+	Leer C
+	Si A+B=C Entonces
+		Escribir 'Iguales'
+	SiNo
+		Si A+C=B Entonces
+			Escribir 'Iguales'
+		SiNo
+			Si B+C=A Entonces
+				Escribir 'Iguales'
+			SiNo
+				Escribir 'Distintas'
+			FinSi
+		FinSi
+	FinSi
+FinAlgoritmo

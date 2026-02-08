@@ -1,0 +1,26 @@
+// Emilia Cristina Prieto Henriquez
+// ID 0580909
+// Ing. Animacion Digital
+// Escribir un algoritmo que acepte tres números enteros e imprima el mayor de ellos
+Algoritmo DF_10
+	Definir A, B, C Como Entero
+	Escribir 'Ingrese el primer numero:'
+	Leer A
+	Escribir 'Ingrese el segundo numero:'
+	Leer B
+	Escribir 'Ingrese el tercer numero:'
+	Leer C
+	Si A<B Entonces
+		Si B<C Entonces
+			Escribir C
+		SiNo
+			Escribir B
+		FinSi
+	SiNo
+		Si A<C Entonces
+			Escribir C
+		SiNo
+			Escribir A
+		FinSi
+	FinSi
+FinAlgoritmo

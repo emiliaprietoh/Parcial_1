@@ -1,0 +1,14 @@
+// Emilia Cristina Prieto Henriquez
+// ID 0580909
+// Ing. Animacion Digital
+// Suma de los números pares comprendidos entre 2 y 100.
+Algoritmo DF_04
+	Definir suma, num Como Entero
+	suma <- 2
+	num <- 4
+	Mientras num<=100 Hacer
+		suma <- suma+num
+		num <- num+2
+	FinMientras
+	Escribir 'La suma de los numeros pares comprendidos es de ', suma
+FinAlgoritmo

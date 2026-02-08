@@ -1,0 +1,16 @@
+// Emilia Cristina Prieto Henriquez
+// ID 0580909
+// Ing. Animacion Digital
+Algoritmo DF_06
+	Definir Total, num Como Entero
+	Total <- 0
+	Repetir
+		Leer num
+		Si num=0 Entonces
+			Total <- Total+1
+		FinSi
+		Escribir '¿Hay más números? (s para sí / n para no)'
+		Leer respuesta
+	Hasta Que respuesta='n'
+	Escribir Total
+FinAlgoritmo

@@ -1,0 +1,26 @@
+// Emilia Cristina Prieto Henriquez
+// ID 0580909
+// Ing. Animacion Digital
+// Se desea obtener una tabla con las depreciaciones acumuladas y los valores reales de cada año, de un automóvil comprado por 20.000 euros en el año 2005, durante los seis años siguientes suponiendo un valor de recuperación o rescate de 2.000. Realizar el análisis del problema, conociendo la fórmula de la depreciación anual constante D para cada año de vida útil.
+Algoritmo DF_02
+	Definir coste, Valorrescaste, valoractual, depreciacion, acumulada Como Real
+	Definir vidautil, anio Como Entero
+	Escribir 'Ingresa el costo: '
+	Leer coste
+	Escribir 'Ingresa la vida util: '
+	Leer vidautil
+	Escribir 'Ingresa el valor de rescate: '
+	Leer valorrescate
+	Escribir 'Ingresa el anio: '
+	Leer anio
+	valoractual <- coste
+	depreciacion <- (coste-valorrescate)/vidautil
+	acumulada <- 0
+	Mientras anio<vidautil Hacer
+		acumulada <- acumulada+depreciacion
+		valoractual <- valoractual+depreciacion
+		anio <- anio+1
+		Escribir 'El valor acumulado es: $', acumulada
+		Escribir 'El valor actual es: $', valoractual
+	FinMientras
+FinAlgoritmo

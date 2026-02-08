@@ -1,0 +1,27 @@
+// Emilia Cristina Prieto Henriquez
+// ID 0580909
+// Ing. Animacion Digital
+// 5. Se desea realizar el algoritmo que resuelva el siguiente problema: Cálculo de los salarios mensuales de los empleados de una empresa, sabiendo que éstos se calculan en base a las horas semanales trabajadas y de acuerdo a un precio especificado por horas. Si se pasan de cuarenta horas semanales, las horas extraordinarias se pagarán a razón de 1.5 veces la hora ordinaria.
+Algoritmo DF_05
+	Definir horas, salariototal, salario, preciohora Como Real
+	Definir nombre, datos Como Cadena
+	salariototal <- 0
+	Escribir '¿Desea ingresar un empleado? (si/no)'
+	Leer datos
+	Si datos=='si' Entonces
+		Escribir 'Ingrese el nombre del empleado:'
+		Leer nombre
+		Escribir 'Ingrese las horas semanales de trabajo:'
+		Leer horas
+		Escribir 'Ingrese el precio por hora:'
+		Leer preciohora
+		Si horas<=40 Entonces
+			salario <- horas*preciohora
+		SiNo
+			salario <- (40*preciohora)+(1.5*preciohora*(horas-40))
+		FinSi
+		Escribir 'El salario de ', nombre, ' es de: $', salario
+	SiNo
+		Escribir 'Proceso finalizado.'
+	FinSi
+FinAlgoritmo
